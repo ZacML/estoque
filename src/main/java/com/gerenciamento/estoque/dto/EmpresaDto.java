@@ -3,7 +3,7 @@ package com.gerenciamento.estoque.dto;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 
-public record EmpresaDto (
+public record EmpresaDto(
         @NotBlank(message = "Não é possivel salvar a empresa sem razão social!")
         String nmRazao,
         String nmFantasia,
@@ -15,5 +15,5 @@ public record EmpresaDto (
         String nuEndereco,
         @Pattern(regexp = "^S|N$", message = "Só é possivel salvar a empresa com 'S' ou 'N'!")
         String flAtivo
-)
-{}
+) {
+}

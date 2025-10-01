@@ -30,26 +30,4 @@ public class EmpresaModel {
     private String nuEndereco;
     @Column(name = "FLATIVO", length = 1, nullable = false)
     private String flAtivo;
-
-    public String buscaCdEmpresa() {
-
-    }
-
-    public String buscaNuCnpj() {
-
-    }
-
-    public String buscaFlAtivo() {
-
-    }
-
-    public Integer deletarCdEmpresa() {
-
-    }
-
-    public void buscaTodos() {
-    }
-
-    public void salvar() {
-    }
 }
